@@ -4,7 +4,7 @@ class About extends React.Component {
     render(){
         return(
             <div>
-                Table template
+                <h1>About me</h1>
             </div>
         )
     }

@@ -12,7 +12,7 @@ class Navbar extends React.Component {
                             <Link className="nav-link" to="/table">Table</Link>
                        </li>
                        <li className="nav-item">
-                           <Link className="nav-link" to="/About">About</Link>
+                           <Link className="nav-link" to="/about">About</Link>
                        </li>
                     </ul>
             </div>

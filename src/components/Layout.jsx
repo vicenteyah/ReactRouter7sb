@@ -1,10 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar.jsx'
 
-function Layout (){
+function Layout (props){
     return(
-        <Navbar/>
-    )
+            <React.Fragment> 
+                <Navbar/>
+                {props.children}
+            </React.Fragment>
+        )
 }
 
 export default Layout

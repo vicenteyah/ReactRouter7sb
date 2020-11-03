@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Route,Switch } from 'react-router-dom'
-import Layout from './Navbar.jsx'
-import Home from '../pages/Home'
-import Table from '../pages/Table'
-import About from '../pages/About'
+import Layout from './Layout.jsx'
+import Home from '../pages/Home.jsx'
+import Table from '../pages/Table.jsx'
+import About from '../pages/About.jsx'
 
 function App() {
   return (

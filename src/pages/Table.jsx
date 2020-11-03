@@ -4,7 +4,7 @@ class Table extends React.Component {
     render(){
         return(
             <div>
-                Table template
+                <h1>Table template</h1>
             </div>
         )
     }
